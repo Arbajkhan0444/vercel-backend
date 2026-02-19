@@ -1,0 +1,55 @@
+{
+  "entity": "event",
+  "account_id": "acc_E0LCIeIFfjPAwI",
+  "event": "payment.authorized",
+  "contains": [
+    "payment"
+  ],
+  "payload": {
+    "payment": {
+      "entity": {
+        "id": "pay_PZ4rBK65bc2Ue8",
+        "entity": "payment",
+        "amount": 2250,
+        "currency": "INR",
+        "status": "authorized",
+        "order_id": null,
+        "invoice_id": null,
+        "international": false,
+        "method": "upi",
+        "amount_refunded": 0,
+        "refund_status": null,
+        "captured": false,
+        "description": "html tutorial",
+        "card_id": null,
+        "bank": null,
+        "wallet": null,
+        "vpa": "success@razorpay",
+        "email": "er@gmail.com",
+        "contact": "+919472395194",
+        "notes": {
+          "name": "er saurav",
+          "user": "675d8e5596ad71b4fa473e67",
+          "ebook": "675d8ee9399518d2c1a88bcf",
+          "discount": "25"
+        },
+        "fee": null,
+        "tax": null,
+        "error_code": null,
+        "error_description": null,
+        "error_source": null,
+        "error_step": null,
+        "error_reason": null,
+        "acquirer_data": {
+          "rrn": "240844614133",
+          "upi_transaction_id": "17F65DBA811641694BDBF5416D22BE71"
+        },
+        "created_at": 1734620574,
+        "upi": {
+          "vpa": "success@razorpay"
+        }
+      }
+    }
+  },
+  "created_at": 1734620575
+}
